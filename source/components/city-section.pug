@@ -1,0 +1,25 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      img.city-section__icon(src="images/city-section-icon.png" loading="lazy" width="1242" height="883" alt="icon")
+      h2.city-section__title.font-w-bold.font-s-33-m
+        | Станьте партнером 
+        br.no-br
+        | франшизы «Glass Prom» 
+        br.no-br
+        | и получайте от   
+        span.color-blue 235 000 рублей 
+        br.no-br
+        span.color-blue чистой прибыли ежемесячно
+      .city-section__sub-title
+        img.city-section__sub-title-icon(src="images/main-section-bottom-icon.svg" loading="lazy" width="97" height="97" alt="icon")
+        .font-s-24
+          | Проверьте, свободен 
+          br
+          | ли ваш город для работы
+      form.city-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") проверить
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1069" height="1145" alt="image")

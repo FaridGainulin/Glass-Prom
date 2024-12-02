@@ -1,0 +1,57 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__img-bg(src="images/finances-section-img-bg.png" loading="lazy" width="1261" height="1184" alt="image")
+      img.finances-section__icon-1(src="images/icon-hexagon.svg" loading="lazy" width="500" height="441" alt="icon")
+      img.finances-section__icon-2(src="images/icon-hexagon.svg" loading="lazy" width="500" height="441" alt="icon")
+      img.finances-section__icon-3(src="images/icon-hexagon.svg" loading="lazy" width="500" height="441" alt="icon")
+      h2.finances-section__title.font-w-bold.font-s-40.text-up
+        | Коротко о 
+        span.color-blue ключевых показателях 
+        | бизнеса
+      .swiper-bullet
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-40 235 000 ₽
+            .font-s-24 размер ежемесячной <br> прибыли
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-40 1 630 000 ₽
+            .font-s-24 средний размер <br> вложений
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-40 1 220 000 ₽
+            .font-s-24 средний размер <br> ежемесячной выручки
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-40 33 дня
+            .font-s-24 средний срок <br> запуска бизнеса
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-40 до 120%
+            .font-s-24 размер наценки <br> на продукцию
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-40 12 месяцев
+            .font-s-24 срок окупаемости <br> инвестиций
+        .bullet-pagination.bullet-pagination--secondary
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="826" height="740" alt="image")
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") скачать
+        .finances-section__bottom-right
+          .finances-section__bottom-title.font-w-bold.font-s-24.text-up
+            | Хотите получить 
+            br.no-br
+            | детальные 
+            span.color-blue цифры 
+            br.no-br
+            | для 
+            span.color-blue вашего города 
+            br.no-br
+            | и под 
+            span.color-blue ваш бюджет 
+            | ?
+          .finances-section__bottom-text.font-w-medium.font-s-24
+            | Скачайте финансовую 
+            br.no-br
+            | модель 
+            span.color-blue «Glass Prom»

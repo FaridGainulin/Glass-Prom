@@ -1,0 +1,37 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      h2.about-section__title.font-w-bold.font-s-40
+        span.color-blue 11 лет 
+        | производим стеклопакеты 
+        br.no-br
+        | для клиентов со всей России
+      .about-section__text
+        .font-s-16
+          | Компания «Glass Prom» была основана в 2013 году в городе Набережные Челны. Мы занимаемся 
+          br.no-br-xxl
+          | изготовлением современных стеклопакетов и продаем нашу продукцию в различных регионах нашей 
+          br.no-br-xxl
+          | страны.
+        .font-s-16
+          | Сегодня спрос на стеклопакеты продолжает расти, все больше людей интересуются технологиями 
+          br.no-br-xxl
+          | энергосбережения, а также смотрят на различные цвета и оттенки, которые подходят под современный 
+          br.no-br-xxl
+          | дизайн помещений. Наше производство удовлетворяет эти потребности, а продукция компании продолжает 
+          br.no-br-xxl
+          | оставаться максимально актуальной и востребованной.
+        .font-s-16
+          | Нашим партнерам мы готовы передать пошаговую инструкцию по запуску собственного производства, 
+          br.no-br-xxl
+          | технологии изготовления стеклопакетов, контакты поставщиков материалов, методы продвижения, развития 
+          br.no-br-xxl
+          | и масштабирования на этом растущем рынке.
+      form.about-section__form(data-feedback-form)
+        textarea.input.input--textarea(type="text" name="answer" autocomplete="off" placeholder="Текст вопроса")
+        .about-section__form-column
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Задать вопрос команде
+      img.about-section__img(src="images/about-section-img.png" loading="lazy" width="880" height="755" alt="image")

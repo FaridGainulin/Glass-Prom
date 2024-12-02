@@ -1,0 +1,27 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-33.text-up
+        span.color-white Зарабатывайте от 
+        br
+        span.color-blue 235 000 рублей ежемесячно 
+        br.no-br
+        span.color-white открыв 
+        span.color-blue собственное 
+        br.no-br
+        span.color-blue производство 
+        span.color-white стеклопакетов 
+        br.no-br
+        span.color-white по франшизе 
+        span.color-blue «Glass Prom»
+      .main-section__bottom
+        img.main-section__bottom-img(src="images/main-section-bottom-img.png" loading="lazy" width="670" height="551" alt="image")
+        img.main-section__bottom-icon(src="images/main-section-bottom-icon.svg" loading="lazy" width="97" height="97" alt="icon")
+        img.main-section__bottom-hexagon(src="images/icon-hexagon.svg" loading="lazy" width="500" height="441" alt="icon")
+        form.main-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Получить план открытия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1007" height="1079" alt="image")
